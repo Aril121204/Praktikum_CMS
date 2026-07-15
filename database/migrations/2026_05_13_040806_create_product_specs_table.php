@@ -40,11 +40,11 @@ return new class extends Migration
 
             // Sistem & Konektivitas
             $table->string('os')->nullable();
-            $table->string('connectivity')->nullable();
+            $table->text('connectivity')->nullable();
 
             // Fisik
             $table->string('dimensions')->nullable();
-            $table->string('colors')->nullable();
+            $table->text('colors')->nullable();
 
             // Lainnya
             $table->text('other_specs')->nullable();
